@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		901C376818E7F337007C93AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901C376618E7F337007C93AC /* ViewController.m */; };
+		901C376918E7F337007C93AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901C376718E7F337007C93AC /* ViewController.xib */; };
+		901C377018E7F8D8007C93AC /* pet-dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 901C376B18E7F8D8007C93AC /* pet-dog.png */; };
+		901C377118E7F8D8007C93AC /* radioactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 901C376C18E7F8D8007C93AC /* radioactive.png */; };
+		901C377218E7F8D8007C93AC /* soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 901C376D18E7F8D8007C93AC /* soccer.png */; };
+		901C377318E7F8D8007C93AC /* spiral.png in Resources */ = {isa = PBXBuildFile; fileRef = 901C376E18E7F8D8007C93AC /* spiral.png */; };
+		901C377418E7F8D8007C93AC /* wolf-cartoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901C376F18E7F8D8007C93AC /* wolf-cartoon.png */; };
+		9032988B18E81FA4005ED04A /* SVMSlidingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9032988918E81FA4005ED04A /* SVMSlidingTabBar.m */; };
+		9032988C18E81FA4005ED04A /* SVMSlidingTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9032988A18E81FA4005ED04A /* SVMSlidingTabBar.xib */; };
+		90D6549218E80CD3005309EE /* FunctionalityTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6549018E80CD3005309EE /* FunctionalityTestVC.m */; };
+		90D6549318E80CD3005309EE /* FunctionalityTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D6549118E80CD3005309EE /* FunctionalityTestVC.xib */; };
+		F2102D5F188CEA8A0038DC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D5E188CEA8A0038DC27 /* Foundation.framework */; };
+		F2102D61188CEA8A0038DC27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D60188CEA8A0038DC27 /* CoreGraphics.framework */; };
+		F2102D63188CEA8A0038DC27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D62188CEA8A0038DC27 /* UIKit.framework */; };
+		F2102D69188CEA8A0038DC27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2102D67188CEA8A0038DC27 /* InfoPlist.strings */; };
+		F2102D6B188CEA8A0038DC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2102D6A188CEA8A0038DC27 /* main.m */; };
+		F2102D6F188CEA8A0038DC27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2102D6E188CEA8A0038DC27 /* AppDelegate.m */; };
+		F2102D71188CEA8A0038DC27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2102D70188CEA8A0038DC27 /* Images.xcassets */; };
+		F2102D78188CEA8B0038DC27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D77188CEA8B0038DC27 /* XCTest.framework */; };
+		F2102D79188CEA8B0038DC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D5E188CEA8A0038DC27 /* Foundation.framework */; };
+		F2102D7A188CEA8B0038DC27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D62188CEA8A0038DC27 /* UIKit.framework */; };
+		F2102D82188CEA8B0038DC27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2102D80188CEA8B0038DC27 /* InfoPlist.strings */; };
+		F2102D84188CEA8B0038DC27 /* SVMSlidingTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2102D83188CEA8B0038DC27 /* SVMSlidingTabBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2102D7B188CEA8B0038DC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2102D53188CEA8A0038DC27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2102D5A188CEA8A0038DC27;
+			remoteInfo = SVMSlidingTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		901C376518E7F337007C93AC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		901C376618E7F337007C93AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		901C376718E7F337007C93AC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		901C376B18E7F8D8007C93AC /* pet-dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pet-dog.png"; sourceTree = "<group>"; };
+		901C376C18E7F8D8007C93AC /* radioactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioactive.png; sourceTree = "<group>"; };
+		901C376D18E7F8D8007C93AC /* soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer.png; sourceTree = "<group>"; };
+		901C376E18E7F8D8007C93AC /* spiral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiral.png; sourceTree = "<group>"; };
+		901C376F18E7F8D8007C93AC /* wolf-cartoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wolf-cartoon.png"; sourceTree = "<group>"; };
+		9032988818E81FA4005ED04A /* SVMSlidingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSlidingTabBar.h; sourceTree = "<group>"; };
+		9032988918E81FA4005ED04A /* SVMSlidingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMSlidingTabBar.m; sourceTree = "<group>"; };
+		9032988A18E81FA4005ED04A /* SVMSlidingTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVMSlidingTabBar.xib; sourceTree = "<group>"; };
+		90D6548F18E80CD3005309EE /* FunctionalityTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionalityTestVC.h; sourceTree = "<group>"; };
+		90D6549018E80CD3005309EE /* FunctionalityTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionalityTestVC.m; sourceTree = "<group>"; };
+		90D6549118E80CD3005309EE /* FunctionalityTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionalityTestVC.xib; sourceTree = "<group>"; };
+		F2102D5B188CEA8A0038DC27 /* SVMSlidingTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVMSlidingTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2102D5E188CEA8A0038DC27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2102D60188CEA8A0038DC27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2102D62188CEA8A0038DC27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2102D66188CEA8A0038DC27 /* SVMSlidingTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVMSlidingTabBar-Info.plist"; sourceTree = "<group>"; };
+		F2102D68188CEA8A0038DC27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2102D6A188CEA8A0038DC27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2102D6C188CEA8A0038DC27 /* SVMSlidingTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVMSlidingTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		F2102D6D188CEA8A0038DC27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2102D6E188CEA8A0038DC27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2102D70188CEA8A0038DC27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2102D76188CEA8B0038DC27 /* SVMSlidingTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVMSlidingTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2102D77188CEA8B0038DC27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F2102D7F188CEA8B0038DC27 /* SVMSlidingTabBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVMSlidingTabBarTests-Info.plist"; sourceTree = "<group>"; };
+		F2102D81188CEA8B0038DC27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2102D83188CEA8B0038DC27 /* SVMSlidingTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVMSlidingTabBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2102D58188CEA8A0038DC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2102D61188CEA8A0038DC27 /* CoreGraphics.framework in Frameworks */,
+				F2102D63188CEA8A0038DC27 /* UIKit.framework in Frameworks */,
+				F2102D5F188CEA8A0038DC27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2102D73188CEA8B0038DC27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2102D78188CEA8B0038DC27 /* XCTest.framework in Frameworks */,
+				F2102D7A188CEA8B0038DC27 /* UIKit.framework in Frameworks */,
+				F2102D79188CEA8B0038DC27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		901C374F18E7F306007C93AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9032988718E81FA4005ED04A /* SVMSlidingTabBar */,
+				901C376418E7F337007C93AC /* ViewController */,
+				90D6548E18E80CBA005309EE /* FunctionalityTestVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		901C375318E7F306007C93AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				901C376A18E7F8CD007C93AC /* iconbeast-lite */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		901C376418E7F337007C93AC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				901C376518E7F337007C93AC /* ViewController.h */,
+				901C376618E7F337007C93AC /* ViewController.m */,
+				901C376718E7F337007C93AC /* ViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		901C376A18E7F8CD007C93AC /* iconbeast-lite */ = {
+			isa = PBXGroup;
+			children = (
+				901C376B18E7F8D8007C93AC /* pet-dog.png */,
+				901C376C18E7F8D8007C93AC /* radioactive.png */,
+				901C376D18E7F8D8007C93AC /* soccer.png */,
+				901C376E18E7F8D8007C93AC /* spiral.png */,
+				901C376F18E7F8D8007C93AC /* wolf-cartoon.png */,
+			);
+			path = "iconbeast-lite";
+			sourceTree = "<group>";
+		};
+		9032988718E81FA4005ED04A /* SVMSlidingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9032988818E81FA4005ED04A /* SVMSlidingTabBar.h */,
+				9032988918E81FA4005ED04A /* SVMSlidingTabBar.m */,
+				9032988A18E81FA4005ED04A /* SVMSlidingTabBar.xib */,
+			);
+			path = SVMSlidingTabBar;
+			sourceTree = "<group>";
+		};
+		90D6548E18E80CBA005309EE /* FunctionalityTestVC */ = {
+			isa = PBXGroup;
+			children = (
+				90D6548F18E80CD3005309EE /* FunctionalityTestVC.h */,
+				90D6549018E80CD3005309EE /* FunctionalityTestVC.m */,
+				90D6549118E80CD3005309EE /* FunctionalityTestVC.xib */,
+			);
+			path = FunctionalityTestVC;
+			sourceTree = "<group>";
+		};
+		F2102D52188CEA8A0038DC27 = {
+			isa = PBXGroup;
+			children = (
+				F2102D64188CEA8A0038DC27 /* SVMSlidingTabBar */,
+				F2102D7D188CEA8B0038DC27 /* SVMSlidingTabBarTests */,
+				F2102D5D188CEA8A0038DC27 /* Frameworks */,
+				F2102D5C188CEA8A0038DC27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2102D5C188CEA8A0038DC27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2102D5B188CEA8A0038DC27 /* SVMSlidingTabBar.app */,
+				F2102D76188CEA8B0038DC27 /* SVMSlidingTabBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2102D5D188CEA8A0038DC27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2102D5E188CEA8A0038DC27 /* Foundation.framework */,
+				F2102D60188CEA8A0038DC27 /* CoreGraphics.framework */,
+				F2102D62188CEA8A0038DC27 /* UIKit.framework */,
+				F2102D77188CEA8B0038DC27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2102D64188CEA8A0038DC27 /* SVMSlidingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F2102D6D188CEA8A0038DC27 /* AppDelegate.h */,
+				F2102D6E188CEA8A0038DC27 /* AppDelegate.m */,
+				901C374F18E7F306007C93AC /* Classes */,
+				901C375318E7F306007C93AC /* Images */,
+				F2102D70188CEA8A0038DC27 /* Images.xcassets */,
+				F2102D65188CEA8A0038DC27 /* Supporting Files */,
+			);
+			path = SVMSlidingTabBar;
+			sourceTree = "<group>";
+		};
+		F2102D65188CEA8A0038DC27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2102D66188CEA8A0038DC27 /* SVMSlidingTabBar-Info.plist */,
+				F2102D67188CEA8A0038DC27 /* InfoPlist.strings */,
+				F2102D6A188CEA8A0038DC27 /* main.m */,
+				F2102D6C188CEA8A0038DC27 /* SVMSlidingTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2102D7D188CEA8B0038DC27 /* SVMSlidingTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2102D83188CEA8B0038DC27 /* SVMSlidingTabBarTests.m */,
+				F2102D7E188CEA8B0038DC27 /* Supporting Files */,
+			);
+			path = SVMSlidingTabBarTests;
+			sourceTree = "<group>";
+		};
+		F2102D7E188CEA8B0038DC27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2102D7F188CEA8B0038DC27 /* SVMSlidingTabBarTests-Info.plist */,
+				F2102D80188CEA8B0038DC27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2102D5A188CEA8A0038DC27 /* SVMSlidingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2102D87188CEA8B0038DC27 /* Build configuration list for PBXNativeTarget "SVMSlidingTabBar" */;
+			buildPhases = (
+				F2102D57188CEA8A0038DC27 /* Sources */,
+				F2102D58188CEA8A0038DC27 /* Frameworks */,
+				F2102D59188CEA8A0038DC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVMSlidingTabBar;
+			productName = SVMSlidingTabBar;
+			productReference = F2102D5B188CEA8A0038DC27 /* SVMSlidingTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2102D75188CEA8B0038DC27 /* SVMSlidingTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2102D8A188CEA8B0038DC27 /* Build configuration list for PBXNativeTarget "SVMSlidingTabBarTests" */;
+			buildPhases = (
+				F2102D72188CEA8B0038DC27 /* Sources */,
+				F2102D73188CEA8B0038DC27 /* Frameworks */,
+				F2102D74188CEA8B0038DC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2102D7C188CEA8B0038DC27 /* PBXTargetDependency */,
+			);
+			name = SVMSlidingTabBarTests;
+			productName = SVMSlidingTabBarTests;
+			productReference = F2102D76188CEA8B0038DC27 /* SVMSlidingTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2102D53188CEA8A0038DC27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = codewalla;
+				TargetAttributes = {
+					F2102D75188CEA8B0038DC27 = {
+						TestTargetID = F2102D5A188CEA8A0038DC27;
+					};
+				};
+			};
+			buildConfigurationList = F2102D56188CEA8A0038DC27 /* Build configuration list for PBXProject "SVMSlidingTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2102D52188CEA8A0038DC27;
+			productRefGroup = F2102D5C188CEA8A0038DC27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2102D5A188CEA8A0038DC27 /* SVMSlidingTabBar */,
+				F2102D75188CEA8B0038DC27 /* SVMSlidingTabBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2102D59188CEA8A0038DC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D6549318E80CD3005309EE /* FunctionalityTestVC.xib in Resources */,
+				9032988C18E81FA4005ED04A /* SVMSlidingTabBar.xib in Resources */,
+				901C377318E7F8D8007C93AC /* spiral.png in Resources */,
+				F2102D69188CEA8A0038DC27 /* InfoPlist.strings in Resources */,
+				901C376918E7F337007C93AC /* ViewController.xib in Resources */,
+				901C377118E7F8D8007C93AC /* radioactive.png in Resources */,
+				901C377018E7F8D8007C93AC /* pet-dog.png in Resources */,
+				901C377218E7F8D8007C93AC /* soccer.png in Resources */,
+				901C377418E7F8D8007C93AC /* wolf-cartoon.png in Resources */,
+				F2102D71188CEA8A0038DC27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2102D74188CEA8B0038DC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2102D82188CEA8B0038DC27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2102D57188CEA8A0038DC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D6549218E80CD3005309EE /* FunctionalityTestVC.m in Sources */,
+				F2102D6F188CEA8A0038DC27 /* AppDelegate.m in Sources */,
+				901C376818E7F337007C93AC /* ViewController.m in Sources */,
+				F2102D6B188CEA8A0038DC27 /* main.m in Sources */,
+				9032988B18E81FA4005ED04A /* SVMSlidingTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2102D72188CEA8B0038DC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2102D84188CEA8B0038DC27 /* SVMSlidingTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2102D7C188CEA8B0038DC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2102D5A188CEA8A0038DC27 /* SVMSlidingTabBar */;
+			targetProxy = F2102D7B188CEA8B0038DC27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2102D67188CEA8A0038DC27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2102D68188CEA8A0038DC27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2102D80188CEA8B0038DC27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2102D81188CEA8B0038DC27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2102D85188CEA8B0038DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2102D86188CEA8B0038DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2102D88188CEA8B0038DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVMSlidingTabBar/SVMSlidingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "SVMSlidingTabBar/SVMSlidingTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2102D89188CEA8B0038DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVMSlidingTabBar/SVMSlidingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "SVMSlidingTabBar/SVMSlidingTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2102D8B188CEA8B0038DC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVMSlidingTabBar.app/SVMSlidingTabBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVMSlidingTabBar/SVMSlidingTabBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SVMSlidingTabBarTests/SVMSlidingTabBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F2102D8C188CEA8B0038DC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVMSlidingTabBar.app/SVMSlidingTabBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVMSlidingTabBar/SVMSlidingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "SVMSlidingTabBarTests/SVMSlidingTabBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2102D56188CEA8A0038DC27 /* Build configuration list for PBXProject "SVMSlidingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2102D85188CEA8B0038DC27 /* Debug */,
+				F2102D86188CEA8B0038DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2102D87188CEA8B0038DC27 /* Build configuration list for PBXNativeTarget "SVMSlidingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2102D88188CEA8B0038DC27 /* Debug */,
+				F2102D89188CEA8B0038DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2102D8A188CEA8B0038DC27 /* Build configuration list for PBXNativeTarget "SVMSlidingTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2102D8B188CEA8B0038DC27 /* Debug */,
+				F2102D8C188CEA8B0038DC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2102D53188CEA8A0038DC27 /* Project object */;
+}
