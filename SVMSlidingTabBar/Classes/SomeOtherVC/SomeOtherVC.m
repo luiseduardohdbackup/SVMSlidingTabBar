@@ -1,19 +1,19 @@
 //
-//  FunctionalityTestVC.m
+//  SomeOtherVC.m
 //  SVMSlidingTabBar
 //
-//  Created by staticVoidMan on 30/03/14.
-//  Copyright (c) 2014 svmLogics. All rights reserved.
+//  Created by staticVoidMan on 31/03/14.
+//  Copyright (c) 2014 codewalla. All rights reserved.
 //
 
-#import "FunctionalityTestVC.h"
+#import "SomeOtherVC.h"
 #import "SVMSlidingTabBar.h"
 
-@interface FunctionalityTestVC ()
+@interface SomeOtherVC ()
 
 @end
 
-@implementation FunctionalityTestVC
+@implementation SomeOtherVC
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,26 +30,6 @@
     // Do any additional setup after loading the view from its nib.
 }
 
-- (IBAction)btnShowIndicatorsAct:(UIButton *)sender
-{
-    [(SVMSlidingTabBar *)(self.parentViewController) showIndicators];
-}
-
-- (IBAction)btnHideIndicatorsAct:(UIButton *)sender
-{
-    [(SVMSlidingTabBar *)(self.parentViewController) hideIndicators];
-}
-
-- (IBAction)btnEnableIndicatorsAct:(UIButton *)sender
-{
-    [(SVMSlidingTabBar *)(self.parentViewController) enableIndicatorButton];
-}
-
-- (IBAction)btnDisableIndicatorsAct:(UIButton *)sender
-{
-    [(SVMSlidingTabBar *)(self.parentViewController) disableIndicatorButton];
-}
-
 - (IBAction)btnStatus:(UIButton *)sender
 {
     NSString *strSelectedViewController = [((SVMSlidingTabBar *)(self.parentViewController)).selectedViewController description];
@@ -58,6 +38,5 @@
     NSLog(@"SelectedVC: %@",strSelectedViewController);
     NSLog(@"Selected Tab Index: %i",i_selectedIndex);
 }
-
 
 @end

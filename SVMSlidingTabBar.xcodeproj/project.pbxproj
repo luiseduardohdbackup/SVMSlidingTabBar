@@ -16,6 +16,8 @@
 		901C377418E7F8D8007C93AC /* wolf-cartoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901C376F18E7F8D8007C93AC /* wolf-cartoon.png */; };
 		9032988B18E81FA4005ED04A /* SVMSlidingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9032988918E81FA4005ED04A /* SVMSlidingTabBar.m */; };
 		9032988C18E81FA4005ED04A /* SVMSlidingTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9032988A18E81FA4005ED04A /* SVMSlidingTabBar.xib */; };
+		9072873318E9528C00C18B1D /* SomeOtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9072873118E9528C00C18B1D /* SomeOtherVC.m */; };
+		9072873418E9528C00C18B1D /* SomeOtherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9072873218E9528C00C18B1D /* SomeOtherVC.xib */; };
 		90D6549218E80CD3005309EE /* FunctionalityTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6549018E80CD3005309EE /* FunctionalityTestVC.m */; };
 		90D6549318E80CD3005309EE /* FunctionalityTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D6549118E80CD3005309EE /* FunctionalityTestVC.xib */; };
 		F2102D5F188CEA8A0038DC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2102D5E188CEA8A0038DC27 /* Foundation.framework */; };
@@ -54,6 +56,9 @@
 		9032988818E81FA4005ED04A /* SVMSlidingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMSlidingTabBar.h; sourceTree = "<group>"; };
 		9032988918E81FA4005ED04A /* SVMSlidingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMSlidingTabBar.m; sourceTree = "<group>"; };
 		9032988A18E81FA4005ED04A /* SVMSlidingTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SVMSlidingTabBar.xib; sourceTree = "<group>"; };
+		9072873018E9528C00C18B1D /* SomeOtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeOtherVC.h; sourceTree = "<group>"; };
+		9072873118E9528C00C18B1D /* SomeOtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeOtherVC.m; sourceTree = "<group>"; };
+		9072873218E9528C00C18B1D /* SomeOtherVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeOtherVC.xib; sourceTree = "<group>"; };
 		90D6548F18E80CD3005309EE /* FunctionalityTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionalityTestVC.h; sourceTree = "<group>"; };
 		90D6549018E80CD3005309EE /* FunctionalityTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionalityTestVC.m; sourceTree = "<group>"; };
 		90D6549118E80CD3005309EE /* FunctionalityTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionalityTestVC.xib; sourceTree = "<group>"; };
@@ -105,6 +110,7 @@
 				9032988718E81FA4005ED04A /* SVMSlidingTabBar */,
 				901C376418E7F337007C93AC /* ViewController */,
 				90D6548E18E80CBA005309EE /* FunctionalityTestVC */,
+				9072872F18E9527900C18B1D /* SomeOtherVC */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -147,6 +153,16 @@
 				9032988A18E81FA4005ED04A /* SVMSlidingTabBar.xib */,
 			);
 			path = SVMSlidingTabBar;
+			sourceTree = "<group>";
+		};
+		9072872F18E9527900C18B1D /* SomeOtherVC */ = {
+			isa = PBXGroup;
+			children = (
+				9072873018E9528C00C18B1D /* SomeOtherVC.h */,
+				9072873118E9528C00C18B1D /* SomeOtherVC.m */,
+				9072873218E9528C00C18B1D /* SomeOtherVC.xib */,
+			);
+			path = SomeOtherVC;
 			sourceTree = "<group>";
 		};
 		90D6548E18E80CBA005309EE /* FunctionalityTestVC */ = {
@@ -315,6 +331,7 @@
 				901C377018E7F8D8007C93AC /* pet-dog.png in Resources */,
 				901C377218E7F8D8007C93AC /* soccer.png in Resources */,
 				901C377418E7F8D8007C93AC /* wolf-cartoon.png in Resources */,
+				9072873418E9528C00C18B1D /* SomeOtherVC.xib in Resources */,
 				F2102D71188CEA8A0038DC27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +354,7 @@
 				90D6549218E80CD3005309EE /* FunctionalityTestVC.m in Sources */,
 				F2102D6F188CEA8A0038DC27 /* AppDelegate.m in Sources */,
 				901C376818E7F337007C93AC /* ViewController.m in Sources */,
+				9072873318E9528C00C18B1D /* SomeOtherVC.m in Sources */,
 				F2102D6B188CEA8A0038DC27 /* main.m in Sources */,
 				9032988B18E81FA4005ED04A /* SVMSlidingTabBar.m in Sources */,
 			);

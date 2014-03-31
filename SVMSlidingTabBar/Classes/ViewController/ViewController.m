@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FunctionalityTestVC.h"
+#import "SomeOtherVC.h"
 
 @interface ViewController ()
 
@@ -33,7 +34,8 @@
 
 -(void)setUpSVMTabBar
 {
-    NSInteger numberOfViewController = 11;
+    NSInteger i_numberOfViewController = 11;
+    NSInteger i_numberOfTabsPerPage = 4;
 
     NSMutableArray *arrViewControllers = [[NSMutableArray alloc] init];
 
@@ -44,11 +46,10 @@
     [vc1 setTabBarItem:tabItem1];
     [arrViewControllers addObject:vc1];
 
-    UIViewController *vc2 = [[UIViewController alloc] init];
+    SomeOtherVC *vc2 = [[SomeOtherVC alloc] initWithNibName:@"SomeOtherVC" bundle:nil];
     UITabBarItem *tabItem2 = [[UITabBarItem alloc] init];
     [tabItem2 setFinishedSelectedImage:[UIImage imageNamed:@"pet-dog.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"pet-dog.png"]];
     [tabItem2 setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
-    [vc2.view setBackgroundColor:[UIColor colorWithRed:(float)((arc4random()%255)/255.0) green:(float)((arc4random()%255)/255.0) blue:(float)((arc4random()%255)/255.0) alpha:1]];
     [vc2 setTabBarItem:tabItem2];
     [arrViewControllers addObject:vc2];
 
@@ -68,7 +69,7 @@
     [vc4 setTabBarItem:tabItem4];
     [arrViewControllers addObject:vc4];
 
-    for (int i = 3; i < numberOfViewController; i++) {
+    for (int i = 3; i < i_numberOfViewController; i++) {
         UITabBarItem *tabItem = [[UITabBarItem alloc] init];
         [tabItem setFinishedSelectedImage:[UIImage imageNamed:@"spiral.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"spiral.png"]];
         [tabItem setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
@@ -80,7 +81,7 @@
         [arrViewControllers addObject:vcCurrent];
     }
 
-    svmObj = [[SVMSlidingTabBar alloc] initWithTabs:numberOfViewController andTabsPerPage:4 andViewControllerArray:arrViewControllers];
+    svmObj = [[SVMSlidingTabBar alloc] initWithTabs:i_numberOfViewController andTabsPerPage:i_numberOfTabsPerPage andViewControllerArray:arrViewControllers];
     [svmObj setDelegate:self];
     [self addChildViewController:svmObj];
     [svmObj didMoveToParentViewController:self];

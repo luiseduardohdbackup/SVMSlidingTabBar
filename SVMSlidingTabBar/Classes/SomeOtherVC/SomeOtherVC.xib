@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SomeOtherVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SomeOtherVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-Eh-318">
+                    <rect key="frame" x="20" y="266" width="280" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="KSX-8a-H39"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="uHb-VJ-sq9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.90234375" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02K-NW-2N2">
+                    <rect key="frame" x="20" y="309" width="280" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="G8X-go-Dhp"/>
+                        <constraint firstAttribute="height" constant="30" id="Lc3-89-k8c"/>
+                    </constraints>
+                    <state key="normal" title="Get Status">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnStatus:" destination="-1" eventType="touchUpInside" id="eJi-RO-FsP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.078431375324726105" green="0.32941177487373352" blue="0.30980393290519714" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="02K-NW-2N2" secondAttribute="trailing" constant="20" id="IOF-PC-nxF"/>
+                <constraint firstItem="02K-NW-2N2" firstAttribute="top" secondItem="JsL-Eh-318" secondAttribute="bottom" constant="8" id="LT7-P2-FEA"/>
+                <constraint firstItem="02K-NW-2N2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="ZwR-Xu-Cow"/>
+                <constraint firstAttribute="centerX" secondItem="JsL-Eh-318" secondAttribute="centerX" id="br4-yr-r7K"/>
+                <constraint firstAttribute="centerY" secondItem="JsL-Eh-318" secondAttribute="centerY" id="cnN-0X-tnl"/>
+                <constraint firstAttribute="trailing" secondItem="JsL-Eh-318" secondAttribute="trailing" constant="20" id="hQx-hl-Ngt"/>
+                <constraint firstItem="JsL-Eh-318" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="xS9-pU-uEn"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

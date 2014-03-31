@@ -221,6 +221,17 @@
 }
 
 #pragma mark - SVMTabBar Right/Left More Indicators
+#pragma mark Indicator Button Methods
+-(IBAction)btnMoreIndicatorLeftAct:(id)sender
+{
+    [self gesSwipeRightOnTabBarAct:nil];
+}
+
+-(IBAction)btnMoreIndicatorRightAct:(id)sender
+{
+    [self gesSwipeLeftOnTabBarAct:nil];
+}
+
 #pragma mark Show/Hide Indicators
 -(void)showIndicators
 {
@@ -252,6 +263,23 @@
     }
 }
 
+#pragma mark Enable/Disable Indicators
+-(void)enableIndicatorButton
+{
+    if (! btnMoreIndicatorLeft.enabled || ! btnMoreIndicatorRight.enabled) {
+        [btnMoreIndicatorLeft setEnabled:YES];
+        [btnMoreIndicatorRight setEnabled:YES];
+    }
+}
+
+-(void)disableIndicatorButton
+{
+    if (btnMoreIndicatorLeft.enabled || btnMoreIndicatorRight.enabled) {
+        [btnMoreIndicatorLeft setEnabled:NO];
+        [btnMoreIndicatorRight setEnabled:NO];
+    }
+}
+
 #pragma mark Modify Indicator Look
 -(void)setIndicatorLookToDefault
 {
@@ -272,33 +300,6 @@
 {
     [btnMoreIndicatorLeft.titleLabel setText:leftIndicatorText];
     [btnMoreIndicatorRight.titleLabel setText:rightIndicatorText];
-}
-
-#pragma mark Indicator Button Methods
--(IBAction)btnMoreIndicatorLeftAct:(id)sender
-{
-    [self gesSwipeRightOnTabBarAct:gesSwipeRightOnTabBar];
-}
-
--(IBAction)btnMoreIndicatorRightAct:(id)sender
-{
-    [self gesSwipeLeftOnTabBarAct:gesSwipeLeftOnTabBar];
-}
-
--(void)enableIndicatorButton
-{
-    if (! btnMoreIndicatorLeft.enabled || ! btnMoreIndicatorRight.enabled) {
-        [btnMoreIndicatorLeft setEnabled:YES];
-        [btnMoreIndicatorRight setEnabled:YES];
-    }
-}
-
--(void)disableIndicatorButton
-{
-    if (btnMoreIndicatorLeft.enabled || btnMoreIndicatorRight.enabled) {
-        [btnMoreIndicatorLeft setEnabled:NO];
-        [btnMoreIndicatorRight setEnabled:NO];
-    }
 }
 
 @end
