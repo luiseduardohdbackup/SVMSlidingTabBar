@@ -49,11 +49,6 @@
 -(id)initWithTabs:(NSInteger)tabButtonCount andTabsPerPage:(NSInteger)tabButtonPerPage andViewControllerArray:(NSArray *)viewControllers;
 
 #pragma mark - SVMTabBar Right/Left More Indicators
-#pragma mark Modify Indicator Look
--(void)setIndicatorLookToDefault;
--(void)setIndicatorLeftImageTo:(UIImage *)leftIndicatorImage andRightImageTo:(UIImage *)rightIndicatorImage;
--(void)setIndicatorLeftTextTo:(NSString *)leftIndicatorText andRightTextTo:(NSString *)rightIndicatorText;
-
 #pragma mark Show/Hide Indicators
 -(void)showIndicators;
 -(void)hideIndicators;

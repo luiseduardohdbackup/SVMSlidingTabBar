@@ -40,15 +40,37 @@
                         <action selector="btnStatus:" destination="-1" eventType="touchUpInside" id="eJi-RO-FsP"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8f-qM-jJJ">
+                    <rect key="frame" x="295" y="0.0" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="cJh-GJ-YEo"/>
+                        <constraint firstAttribute="width" constant="25" id="obm-SW-bM4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceL-iY-nqc">
+                    <rect key="frame" x="0.0" y="543" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="HNV-V3-mBh"/>
+                        <constraint firstAttribute="height" constant="25" id="oep-47-hmK"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.078431375324726105" green="0.32941177487373352" blue="0.30980393290519714" alpha="1" colorSpace="deviceRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="02K-NW-2N2" secondAttribute="trailing" constant="20" id="IOF-PC-nxF"/>
                 <constraint firstItem="02K-NW-2N2" firstAttribute="top" secondItem="JsL-Eh-318" secondAttribute="bottom" constant="8" id="LT7-P2-FEA"/>
+                <constraint firstAttribute="trailing" secondItem="P8f-qM-jJJ" secondAttribute="trailing" id="MQS-vS-exe"/>
                 <constraint firstItem="02K-NW-2N2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="ZwR-Xu-Cow"/>
                 <constraint firstAttribute="centerX" secondItem="JsL-Eh-318" secondAttribute="centerX" id="br4-yr-r7K"/>
                 <constraint firstAttribute="centerY" secondItem="JsL-Eh-318" secondAttribute="centerY" id="cnN-0X-tnl"/>
                 <constraint firstAttribute="trailing" secondItem="JsL-Eh-318" secondAttribute="trailing" constant="20" id="hQx-hl-Ngt"/>
+                <constraint firstItem="ceL-iY-nqc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tvX-VU-mLF"/>
+                <constraint firstAttribute="bottom" secondItem="ceL-iY-nqc" secondAttribute="bottom" id="uJ6-bp-9YO"/>
+                <constraint firstItem="P8f-qM-jJJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wgF-JT-7Wo"/>
                 <constraint firstItem="JsL-Eh-318" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="xS9-pU-uEn"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>

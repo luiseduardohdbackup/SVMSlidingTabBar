@@ -96,12 +96,32 @@
                         <action selector="btnStatus:" destination="-1" eventType="touchUpInside" id="12Y-oc-Sun"/>
                     </connections>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1a-aF-FlW">
+                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="QRC-5b-64D"/>
+                        <constraint firstAttribute="width" constant="25" id="wRR-rD-3E6"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yMS-DT-NvG">
+                    <rect key="frame" x="295" y="543" width="25" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="5Zj-aa-qat"/>
+                        <constraint firstAttribute="height" constant="25" id="o6J-25-fHC"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="0.90234375" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="qrk-Nl-AII" firstAttribute="top" secondItem="gXg-II-EEO" secondAttribute="bottom" constant="8" id="4FL-wN-z5T"/>
                 <constraint firstItem="4qg-rl-0EL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="57Q-Pq-LdY"/>
+                <constraint firstAttribute="trailing" secondItem="yMS-DT-NvG" secondAttribute="trailing" id="7BY-KN-BGu"/>
                 <constraint firstAttribute="trailing" secondItem="qrk-Nl-AII" secondAttribute="trailing" constant="20" id="88p-cE-7n1"/>
+                <constraint firstAttribute="bottom" secondItem="yMS-DT-NvG" secondAttribute="bottom" id="8Zh-nB-I17"/>
                 <constraint firstItem="qrk-Nl-AII" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="9IW-0C-6hr"/>
                 <constraint firstItem="gXg-II-EEO" firstAttribute="top" secondItem="1QD-Yq-rdp" secondAttribute="bottom" constant="8" id="9LP-6Y-llK"/>
                 <constraint firstAttribute="centerX" secondItem="yfe-Ga-wVX" secondAttribute="centerX" id="D1I-JD-W9i"/>
@@ -113,6 +133,8 @@
                 <constraint firstItem="Ip0-w0-WIH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="i2X-vj-pC2"/>
                 <constraint firstAttribute="trailing" secondItem="1QD-Yq-rdp" secondAttribute="trailing" constant="20" id="lRb-gH-EGz"/>
                 <constraint firstItem="Ip0-w0-WIH" firstAttribute="top" secondItem="4qg-rl-0EL" secondAttribute="bottom" constant="8" id="nu8-YA-VvH"/>
+                <constraint firstItem="P1a-aF-FlW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tR7-kT-tTS"/>
+                <constraint firstItem="P1a-aF-FlW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="x0i-KI-AzC"/>
                 <constraint firstAttribute="centerY" secondItem="yfe-Ga-wVX" secondAttribute="centerY" id="yj8-j5-5ot"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>

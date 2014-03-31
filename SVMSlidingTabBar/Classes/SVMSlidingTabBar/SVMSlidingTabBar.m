@@ -280,26 +280,4 @@
     }
 }
 
-#pragma mark Modify Indicator Look
--(void)setIndicatorLookToDefault
-{
-    [btnMoreIndicatorLeft.titleLabel setText:@"⇠"];
-    [btnMoreIndicatorLeft setImage:nil forState:UIControlStateNormal];
-
-    [btnMoreIndicatorRight.titleLabel setText:@"⇢"];
-    [btnMoreIndicatorRight setImage:nil forState:UIControlStateNormal];
-}
-
--(void)setIndicatorLeftImageTo:(UIImage *)leftIndicatorImage andRightImageTo:(UIImage *)rightIndicatorImage
-{
-    [btnMoreIndicatorLeft setImage:leftIndicatorImage forState:UIControlStateNormal];
-    [btnMoreIndicatorRight setImage:rightIndicatorImage forState:UIControlStateNormal];
-}
-
--(void)setIndicatorLeftTextTo:(NSString *)leftIndicatorText andRightTextTo:(NSString *)rightIndicatorText
-{
-    [btnMoreIndicatorLeft.titleLabel setText:leftIndicatorText];
-    [btnMoreIndicatorRight.titleLabel setText:rightIndicatorText];
-}
-
 @end
