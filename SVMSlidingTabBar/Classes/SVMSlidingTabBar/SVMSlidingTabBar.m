@@ -280,4 +280,26 @@
     }
 }
 
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    if (i_btnCount > i_btnCountPerTab) {
+        i_barMaxWidthPerButton = self.svTabBar.frame.size.width / i_btnCountPerTab;
+    } else {
+        i_barMaxWidthPerButton = self.svTabBar.frame.size.width / i_btnCount;
+    }
+    i_barMaxPaddingPerButton = (i_barMaxWidthPerButton - i_btnWidth)/2;
+
+    NSInteger i = 0;
+    for (UIView *vwCurrent in self.svTabBar.subviews) {
+        if ([vwCurrent isKindOfClass:[UIButton class]]) {
+            UIButton *btnCurrent = (UIButton *)vwCurrent;
+            [btnCurrent setFrame:CGRectMake((i*i_barMaxWidthPerButton)+i_barMaxPaddingPerButton, 0, i_btnWidth, i_btnHeight)];
+            i++;
+        }
+    }
+
+    NSInteger i_syncXPos = (i_tabPageCurrentIndex-1) * self.svTabBar.frame.size.width;
+    [self.svTabBar setContentOffset:CGPointMake(i_syncXPos, self.svTabBar.contentOffset.y) animated:NO];
+}
+
 @end
