@@ -211,6 +211,7 @@
     //new viewController
     UIViewController *vcAfter = self.viewControllers[i_tabBtnCurrentSelection-1];
     [vcAfter.view setHidden:NO];
+
     self.selectedViewController = vcAfter;
 }
 
@@ -264,7 +265,7 @@
 }
 
 #pragma mark Enable/Disable Indicators
--(void)enableIndicatorButton
+-(void)enableIndicators
 {
     if (! btnMoreIndicatorLeft.enabled || ! btnMoreIndicatorRight.enabled) {
         [btnMoreIndicatorLeft setEnabled:YES];
@@ -272,7 +273,7 @@
     }
 }
 
--(void)disableIndicatorButton
+-(void)disableIndicators
 {
     if (btnMoreIndicatorLeft.enabled || btnMoreIndicatorRight.enabled) {
         [btnMoreIndicatorLeft setEnabled:NO];

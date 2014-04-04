@@ -17,12 +17,12 @@
  The tab bar controller calls this method in response to the user tapping a tab bar item.
  You can use this method to dynamically decide whether a given tab should be made the active tab.
  */
--(BOOL)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBarController shouldSelectViewController:(UIViewController *)viewController;
+-(BOOL)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBar shouldSelectViewController:(UIViewController *)viewController;
 
 /*
  Tells the delegate that the user selected an item in the tab bar.
  */
--(void)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBarController didSelectViewController:(UIViewController *)viewController;
+-(void)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBar didSelectViewController:(UIViewController *)viewController;
 @end
 
 @interface SVMSlidingTabBar : UIViewController <UIScrollViewDelegate>
@@ -40,7 +40,7 @@
 
 @property (nonatomic, copy) NSArray *viewControllers;
 
-@property(nonatomic,assign) UIViewController *selectedViewController;
+@property (nonatomic,assign) UIViewController *selectedViewController;
 @property (nonatomic) NSUInteger selectedIndex;
 
 @property (nonatomic, assign) id <SVMSlidingTabBarDelegate> delegate;
@@ -54,7 +54,7 @@
 -(void)hideIndicators;
 
 #pragma mark Enable/Disable Indicator Methods
--(void)enableIndicatorButton;
--(void)disableIndicatorButton;
+-(void)enableIndicators;
+-(void)disableIndicators;
 
 @end

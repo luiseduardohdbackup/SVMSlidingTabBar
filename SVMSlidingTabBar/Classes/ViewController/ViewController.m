@@ -92,15 +92,15 @@
 }
 
 #pragma mark - SVMSlidingTabBar Delegates
--(BOOL)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBarController shouldSelectViewController:(UIViewController *)viewController
+-(BOOL)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBar shouldSelectViewController:(UIViewController *)viewController
 {
-    NSLog(@"shouldSelect -- %d : %@",svmTabBarController.selectedIndex, viewController);
+    NSLog(@"shouldSelect \t-- %d : %@",svmTabBar.selectedIndex, viewController);
     return YES;
 }
 
--(void)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBarController didSelectViewController:(UIViewController *)viewController
+-(void)svmSlidingTabBarController:(SVMSlidingTabBar *)svmTabBar didSelectViewController:(UIViewController *)viewController
 {
-    NSLog(@"didSelect -- %d : %@",svmTabBarController.selectedIndex, viewController);
+    NSLog(@"didSelect \t\t-- %d : %@",svmTabBar.selectedIndex, viewController);
 }
 
 @end

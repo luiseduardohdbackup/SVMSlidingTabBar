@@ -42,12 +42,12 @@
 
 - (IBAction)btnEnableIndicatorsAct:(UIButton *)sender
 {
-    [(SVMSlidingTabBar *)(self.parentViewController) enableIndicatorButton];
+    [(SVMSlidingTabBar *)(self.parentViewController) enableIndicators];
 }
 
 - (IBAction)btnDisableIndicatorsAct:(UIButton *)sender
 {
-    [(SVMSlidingTabBar *)(self.parentViewController) disableIndicatorButton];
+    [(SVMSlidingTabBar *)(self.parentViewController) disableIndicators];
 }
 
 - (IBAction)btnStatus:(UIButton *)sender
