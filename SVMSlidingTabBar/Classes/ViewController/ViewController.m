@@ -40,7 +40,9 @@
     NSMutableArray *arrViewControllers = [[NSMutableArray alloc] init];
 
     FunctionalityTestVC *vc1 = [[FunctionalityTestVC alloc] initWithNibName:@"FunctionalityTestVC" bundle:nil];
+
     UITabBarItem *tabItem1 = [[UITabBarItem alloc] init];
+    [tabItem1 setTitle:@"🐶"];
     [tabItem1 setFinishedSelectedImage:[UIImage imageNamed:@"wolf-cartoon.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"wolf-cartoon.png"]];
     [tabItem1 setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
     [vc1 setTabBarItem:tabItem1];
@@ -48,6 +50,7 @@
 
     SomeOtherVC *vc2 = [[SomeOtherVC alloc] initWithNibName:@"SomeOtherVC" bundle:nil];
     UITabBarItem *tabItem2 = [[UITabBarItem alloc] init];
+    [tabItem2 setTitle:@"🐯"];
     [tabItem2 setFinishedSelectedImage:[UIImage imageNamed:@"pet-dog.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"pet-dog.png"]];
     [tabItem2 setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
     [vc2 setTabBarItem:tabItem2];
@@ -55,6 +58,7 @@
 
     UIViewController *vc3 = [[UIViewController alloc] init];
     UITabBarItem *tabItem3 = [[UITabBarItem alloc] init];
+    [tabItem3 setTitle:@"🐼"];
     [tabItem3 setFinishedSelectedImage:[UIImage imageNamed:@"radioactive.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"radioactive.png"]];
     [tabItem3 setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
     [vc3.view setBackgroundColor:[UIColor colorWithRed:(float)((arc4random()%255)/255.0) green:(float)((arc4random()%255)/255.0) blue:(float)((arc4random()%255)/255.0) alpha:1]];
@@ -63,6 +67,7 @@
 
     UIViewController *vc4 = [[UIViewController alloc] init];
     UITabBarItem *tabItem4 = [[UITabBarItem alloc] init];
+    [tabItem4 setTitle:@"🐥"];
     [tabItem4 setFinishedSelectedImage:[UIImage imageNamed:@"soccer.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"soccer.png"]];
     [tabItem4 setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
     [vc4.view setBackgroundColor:[UIColor colorWithRed:(float)((arc4random()%255)/255.0) green:(float)((arc4random()%255)/255.0) blue:(float)((arc4random()%255)/255.0) alpha:1]];
@@ -71,6 +76,7 @@
 
     for (int i = 3; i < i_numberOfViewController; i++) {
         UITabBarItem *tabItem = [[UITabBarItem alloc] init];
+        [tabItem setTitle:@"🐞"];
         [tabItem setFinishedSelectedImage:[UIImage imageNamed:@"spiral.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"spiral.png"]];
         [tabItem setImageInsets:UIEdgeInsetsMake(7, 7, 7, 7)];
 
@@ -81,8 +87,12 @@
         [arrViewControllers addObject:vcCurrent];
     }
 
-    svmObj = [[SVMSlidingTabBar alloc] initWithTabs:i_numberOfViewController andTabsPerPage:i_numberOfTabsPerPage andViewControllerArray:arrViewControllers];
+    svmObj = [[SVMSlidingTabBar alloc] initWithTabs:i_numberOfViewController
+                                     andTabsPerPage:i_numberOfTabsPerPage
+                             andViewControllerArray:arrViewControllers];
     [svmObj setDelegate:self];
+//    //ignore UITabBarItem image and instead use viewController.tabBarItem.title for button look
+//    [svmObj noImage];
     [self addChildViewController:svmObj];
     [svmObj didMoveToParentViewController:self];
     [svmObj.view setFrame:self.view.frame];

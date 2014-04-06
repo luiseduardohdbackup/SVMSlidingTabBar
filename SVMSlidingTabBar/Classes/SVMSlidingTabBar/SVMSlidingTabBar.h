@@ -48,12 +48,14 @@
 #pragma mark - Main Method
 -(id)initWithTabs:(NSInteger)tabButtonCount andTabsPerPage:(NSInteger)tabButtonPerPage andViewControllerArray:(NSArray *)viewControllers;
 
-#pragma mark - SVMTabBar Right/Left More Indicators
-#pragma mark Show/Hide Indicators
+#pragma mark - Miscellaneous Methods
+-(void)noImage;
+
+#pragma mark SVMTabBar Indicator Show/Hide
 -(void)showIndicators;
 -(void)hideIndicators;
 
-#pragma mark Enable/Disable Indicator Methods
+#pragma mark SVMTabBar Indicator Enable/Disable
 -(void)enableIndicators;
 -(void)disableIndicators;
 

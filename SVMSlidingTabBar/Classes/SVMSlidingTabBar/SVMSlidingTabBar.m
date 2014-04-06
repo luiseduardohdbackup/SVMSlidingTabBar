@@ -26,6 +26,7 @@
     NSInteger i_tabPageCurrentIndex;    //current tab page in view
 
     BOOL showIndicators;
+    BOOL isImage;
 }
 @end
 
@@ -46,6 +47,7 @@
     if (self) {
         i_btnCount = tabButtonCount;
         i_btnCountPerTab = tabButtonPerPage;
+        isImage = YES;
 
         self.viewControllers = viewControllers;
     }
@@ -86,12 +88,24 @@
         [vwContainer addSubview:vcCurrent.view];
 
         //---Buttons
-        UIButton *btnTab = [UIButton buttonWithType:UIButtonTypeCustom];
+        UIButton *btnTab = [UIButton buttonWithType:UIButtonTypeSystem];
         [btnTab addTarget:self action:@selector(btnTabAct:) forControlEvents:UIControlEventTouchUpInside];
         [btnTab setTag:(i+1)];
-        [btnTab setImage:vcCurrent.tabBarItem.finishedUnselectedImage forState:UIControlStateNormal];
-        [btnTab setImage:vcCurrent.tabBarItem.finishedSelectedImage forState:UIControlStateSelected];
-        [btnTab setImageEdgeInsets:vcCurrent.tabBarItem.imageInsets];
+        [btnTab setTintColor:[UIColor colorWithRed:0.0f green:0.1f blue:0.05f alpha:0.2f]];
+
+        if (isImage) {
+            [btnTab setImage:vcCurrent.tabBarItem.finishedUnselectedImage forState:UIControlStateNormal];
+            [btnTab setImage:vcCurrent.tabBarItem.finishedSelectedImage forState:UIControlStateSelected];
+            [btnTab setImageEdgeInsets:vcCurrent.tabBarItem.imageInsets];
+        } else {
+            [btnTab.titleLabel setFont:[UIFont fontWithName:@"Helvetica" size:36.0f]];
+
+            [btnTab setTitle:vcCurrent.tabBarItem.title forState:UIControlStateNormal];
+            [btnTab setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+            
+            [btnTab setTitle:vcCurrent.tabBarItem.title forState:UIControlStateSelected];
+            [btnTab setTitleColor:[UIColor purpleColor] forState:UIControlStateSelected];
+        }
         [btnTab setFrame:CGRectMake((i*i_barMaxWidthPerButton)+i_barMaxPaddingPerButton, 0, i_btnWidth, i_btnHeight)];
         [self.svTabBar addSubview:btnTab];
     }
@@ -100,6 +114,11 @@
     [self.svTabBar setContentSize:CGSizeMake(i_tabBarWidth, self.svTabBar.frame.size.height)];
 
     [self defaultSettings];
+}
+
+-(void)noImage
+{
+    isImage = NO;
 }
 
 #pragma mark - SVMTabBar Navigation Logic

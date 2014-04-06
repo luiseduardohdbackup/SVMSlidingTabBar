@@ -27,7 +27,7 @@
                     <color key="backgroundColor" white="0.90234375" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="nxB-ZW-gxf"/>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="436" id="r1t-2u-xEG"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" id="r1t-2u-xEG"/>
                     </constraints>
                 </view>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6v-TG-Jc2">
